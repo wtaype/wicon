@@ -1,4 +1,4 @@
-/*! Wicon v1.74 | Recurso gratuito creado por @wilder_taype*/
+/*! Wicon v1.75 | Recurso gratuito creado por @wilder_taype*/
 const micon= [
     {icono:'corazon', ivalue:'<path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/>'},
     {icono:'screen-on', ivalue:'<path d="M0 180V56c0-13.3 10.7-24 24-24h124c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H64v84c0 6.6-5.4 12-12 12H12c-6.6 0-12-5.4-12-12zM288 44v40c0 6.6 5.4 12 12 12h84v84c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12V56c0-13.3-10.7-24-24-24H300c-6.6 0-12 5.4-12 12zm148 276h-40c-6.6 0-12 5.4-12 12v84h-84c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h124c13.3 0 24-10.7 24-24V332c0-6.6-5.4-12-12-12zM160 468v-40c0-6.6-5.4-12-12-12H64v-84c0-6.6-5.4-12-12-12H12c-6.6 0-12 5.4-12 12v124c0 13.3 10.7 24 24 24h124c6.6 0 12-5.4 12-12z"/>'},
@@ -28,9 +28,12 @@ const micon= [
     
     ];
     
-    $('[data-wicon]').each(function () {
-        const icname = $(this).data('wicon');
-        const icvalue = micon.find(icon => icon.icono === icname); 
-        if (icvalue){$(this).html(`<svg class="wicon ${icname}" viewBox="0 0 600 500">${icvalue.ivalue}</svg>`);
-        }else{console.warn(`Revisa el icono para: ${icname}`);}
+    document.querySelectorAll('[data-wicon]').forEach(element => {
+        const icname = element.getAttribute('data-wicon');
+        const icvalue = micon.find(icon => icon.icono === icname);
+        if (icvalue) {
+            element.innerHTML = `<svg class="wicon ${icname}" viewBox="0 0 600 500">${icvalue.ivalue}</svg>`;
+        } else {
+            console.warn(`Revisa el icono para: ${icname}`);
+        }
     });

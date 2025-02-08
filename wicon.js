@@ -55,12 +55,12 @@ const micon=[
     {icono:'tiktok',ivalue:'<path d="M128 52.4802C115.417 52.5037 103.144 49.0665 92.9143 42.6542V87.3586C92.9114 95.638 90.0197 103.719 84.6261 110.522C79.2324 117.324 71.594 122.523 62.7322 125.424C53.8705 128.324 44.208 128.788 35.037 126.753C25.866 124.717 17.6237 120.28 11.4125 114.035C5.20137 107.789 1.31741 100.033 0.280099 91.8032C-0.757213 83.5736 1.10158 75.2631 5.60788 67.983C10.1142 60.703 17.0532 54.8005 25.4968 51.065C33.9404 47.3295 43.4861 45.939 52.8572 47.0796V69.5568C48.5722 68.3764 43.9706 68.411 39.7094 69.6555C35.4482 70.9 31.7453 73.2909 29.1294 76.4868C26.5135 79.6826 25.1184 83.52 25.1432 87.4511C25.168 91.3821 26.6116 95.2058 29.2677 98.3762C31.9238 101.547 35.6567 103.901 39.9334 105.105C44.21 106.308 48.8118 106.298 53.0815 105.076C57.3513 103.854 61.0708 101.483 63.7089 98.3014C66.3471 95.1196 67.7689 91.2897 67.7714 87.3586V0H92.9143C92.9001 1.86084 93.0818 3.71887 93.4572 5.55055C94.3315 9.63345 96.1482 13.5174 98.796 16.9652C101.444 20.4129 104.867 23.3518 108.857 25.6025C114.536 28.8849 121.194 30.6327 128 30.628V52.4802Z"/>'},
     ];
 
-    document.querySelectorAll('[data-wicon]').forEach(element => {
-        const icname = element.getAttribute('data-wicon');
-        const icvalue = micon.find(icon => icon.icono === icname);
-        if (icvalue) {
-            element.innerHTML = `<svg class="wicon ${icname}" viewBox="0 0 128 128">${icvalue.ivalue}</svg>`;
-        } else {
-            console.warn(`Revisa el icono para: ${icname}`);
-        }
-    });
+document.querySelectorAll('[data-wicon]').forEach(element => {
+    const icname = element.getAttribute('data-wicon');
+    const icvalue = micon.find(icon => icon.icono === icname);
+    if (icvalue) {
+        element.innerHTML = `<svg class="wicon ${icname}" viewBox="0 0 128 128">${icvalue.ivalue}</svg>`;
+    } else {
+        console.warn(`Revisa el icono para: ${icname}`);
+    }
+});

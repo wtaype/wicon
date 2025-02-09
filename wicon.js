@@ -69,4 +69,4 @@ document.querySelectorAll('[data-wicon]').forEach(element => {
     } else {
         console.warn(`Revisa el icono para: ${icname}`);
     }
-}); 
+});

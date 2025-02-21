@@ -1,4 +1,4 @@
-/*! Wicon v2.17 | Recurso gratuito creado por @wilder_taype*/
+/*! Wicon v2.18 | Recurso gratuito creado por @wilder_taype*/
 const micon=[
     {icono:'star-vip',tag:'stars nature estrellas',ivalue:'<path d="M63.125 95.25L31.125 107.5C29.65 108.05 28.1 106.925 28.175 105.35L29.925 71.125C29.95 70.6 29.775 70.075 29.45 69.65L7.9 43C6.9 41.775 7.5 39.95 9.025 39.525L42.125 30.625C42.65 30.475 43.1 30.15 43.375 29.7L62.075 1C62.925 -0.325 64.875 -0.325 65.725 1L84.425 29.725C84.725 30.175 85.175 30.5 85.675 30.65L118.775 39.55C120.3 39.95 120.9 41.8 119.9 43.025L98.375 69.675C98.05 70.1 97.875 70.625 97.9 71.15L99.65 105.375C99.725 106.95 98.175 108.075 96.7 107.525L64.7 95.275C64.175 95.075 63.625 95.075 63.125 95.25Z" fill="#FFB636"/><path d="M114.025 12.925L103.775 2.675C103.475 2.375 103.075 2.25 102.675 2.3C102.275 2.35 101.9 2.6 101.7 2.95L91.125 23.775C90.825 24.3 90.925 24.925 91.35 25.35C91.6 25.6 91.95 25.725 92.275 25.725C92.5 25.725 92.725 25.675 92.925 25.55L113.725 15C114.075 14.8 114.325 14.45 114.375 14.025C114.45 13.625 114.3 13.225 114.025 12.925Z" fill="#FFD469"/><path d="M37.275 23.8L26.7 2.975C26.5 2.625 26.15 2.375 25.725 2.325C25.325 2.275 24.9 2.4 24.625 2.7L14.375 12.95C14.075 13.25 13.95 13.65 14 14.05C14.05 14.45 14.3 14.825 14.65 15.025L35.475 25.6C35.675 25.725 35.9 25.775 36.125 25.775C36.475 25.775 36.8 25.65 37.05 25.4C37.475 24.95 37.55 24.3 37.275 23.8Z" fill="#FFD469"/><path d="M72.45 126.3L65.2 104.1C65.15 103.875 65.025 103.675 64.875 103.525C64.625 103.275 64.3 103.15 63.95 103.15C63.35 103.15 62.85 103.55 62.675 104.125L55.425 126.325C55.325 126.725 55.4 127.15 55.65 127.475C55.9 127.8 56.275 128 56.7 128H71.175C71.575 128 71.975 127.8 72.225 127.475C72.5 127.125 72.575 126.7 72.45 126.3Z" fill="#FFD469"/>'},
     {icono:'html-vip',tag:'dev programacion code',ivalue:'<path fill="#E44D26" d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z"></path><path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878H64z"></path><path fill="#EBEBEB" d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692 3.382 37.927H64zm0 35.743l-.061.017-15.327-4.14-.979-10.975H33.816l1.928 21.609 28.193 7.826.063-.017z"></path><path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092.628-6.978.329-3.692z"></path>'},
@@ -67,15 +67,25 @@ const micon=[
     {icono:'whatsapp-vip',tag:'redes sociales media fotos',ivalue:'<linearGradient id="a" gradientUnits="userSpaceOnUse" x1="24.37" x2="24.37" y1="44.55" y2="3.16" gradientTransform="matrix(2.767572, 0, 0, 2.712909, -2.100385, -3.807958)"><stop offset="0" stop-color="#28be41"></stop><stop offset="1" stop-color="#3ed657"></stop></linearGradient><linearGradient id="b" x1=".18" x2="1" y2=".74"><stop offset="0" stop-opacity=".11"></stop><stop offset="1" stop-opacity=".06"></stop></linearGradient><linearGradient id="c" x1=".49" x2=".5" y1=".97"><stop offset="0" stop-color="#ececec"></stop><stop offset="1" stop-color="#fff"></stop></linearGradient><path d="M 65.345 1.863 C 98.297 1.802 125.022 28 124.96 60.3 C 125.022 92.596 98.297 118.796 65.345 118.736 C 54.264 118.762 43.393 115.757 33.962 110.055 L 9.58 114.964 L 16.167 93.424 C 9.342 83.675 5.703 72.123 5.734 60.3 C 5.672 28 32.399 1.802 65.345 1.863 Z" fill="url(#a)"></path><path d="M 39.967 36.4 L 34.821 48.281 L 49.738 73.755 L 87.653 110.923 C 97.889 107.754 106.486 100.834 111.648 91.606 L 93.881 74.244 C 93.617 74.03 93.329 73.847 93.023 73.702 C 92.579 73.43 92.025 73.213 91.362 72.888 C 90.199 72.346 85.992 70.31 83.391 69.17 L 48.464 35.422 L 39.967 36.4 Z" fill="url(#b)"></path><path d="M 65.345 0.616 C 19.047 0.654 -10.28 49.31 12.016 89.084 L 2.412 121.991 L 38.224 113.744 C 78.702 133.448 126.208 104.601 126.233 60.3 C 126.233 27.365 98.945 0.616 65.345 0.616 Z M 65.345 5.581 C 96.188 5.55 121.199 30.065 121.169 60.3 C 121.245 101.976 75.625 128.402 38.418 108.237 L 9.607 114.964 L 17.827 89.003 C -5.174 52.549 21.622 5.507 65.345 5.581 Z" fill="url(#c)"></path><path d="M 93.881 74.244 C 93.521 73.647 92.551 73.295 91.085 72.589 C 87.78 70.969 84.439 69.42 81.067 67.95 C 79.737 67.461 78.741 67.245 77.745 68.655 C 76.289 70.582 74.748 72.448 73.123 74.244 C 72.292 75.193 71.407 75.329 69.941 74.597 C 68.501 73.891 63.77 72.399 58.178 67.543 C 54.973 64.665 52.222 61.339 50.014 57.669 C 49.184 56.231 49.93 55.471 50.65 54.766 C 51.314 54.115 52.117 53.084 52.866 52.27 C 53.583 51.455 53.833 50.832 54.331 49.882 C 54.801 48.933 54.581 48.092 54.193 47.386 C 53.833 46.681 50.899 39.654 49.682 36.806 C 47.302 32.737 42.237 34.147 39.663 36.1 C 38.114 37.294 34.542 40.984 34.542 47.983 C 34.542 54.982 39.802 61.765 40.521 62.714 C 41.269 63.663 50.65 78.531 65.567 84.227 C 73.704 87.863 88.76 91.173 93.05 81.027 C 94.267 77.689 94.267 74.841 93.881 74.244 Z" fill="#f2f2f2"></path>'},
     ];
 
-    function actualizadonwi(elwi){
-        elwi.forEach(ewi => {
-          const nombre = ewi.dataset.wicon;
-          if (!nombre || ewi.querySelector('svg')) return;
-          const icon = micon.find(i => i.icono === nombre);
-          ewi.innerHTML = icon? `<svg class="wicon wi-${nombre}" viewBox="0 0 128 128" data-itags="${icon.tag}">${icon.ivalue}</svg>`:console.warn(`Icono no encontrado:${nombre}`);
-        });
-      } //Para actualizar dentro de html
-      actualizadonwi(document.querySelectorAll('[data-wicon]'));
-      new MutationObserver(obwi=> actualizadonwi(obwi.flatMap(ma=> 
-        [...ma.addedNodes].flatMap(nd=>nd.nodeType===1?[nd,...nd.querySelectorAll('[data-wicon]')]:[])
-      ))).observe(document.body,{childList:true,subtree:true }); //Para actualizar dentro de JS jquery 
+    (function() {
+      let HookHTML = Object.getOwnPropertyDescriptor(Element.prototype,'innerHTML');
+      Object.defineProperty(Element.prototype,'innerHTML',{
+        set:function(content){HookHTML.set.call(this,content);actualizaWicon(this)},
+        get:function(){return HookHTML.get.call(this)}
+      });
+    })();//Hook automático para actualizar Wicons 
+    function actualizaWicon(wi){
+      wi.querySelectorAll('.wicon').forEach(ewi=>{
+        const nombre = [...ewi.classList].find(cls=>cls.startsWith('wi-'))?.replace('wi-', '');
+        if (!nombre || ewi.querySelector('svg')) return;
+        const icon = micon.find(i => i.icono === nombre);
+        ewi.innerHTML = icon ? `<svg class="wicon wi ${nombre}" viewBox="0 0 128 128" data-itags="${icon.tag}">${icon.ivalue}</svg>`
+          : console.warn(`Icono no encontrado: ${nombre}`);
+      });
+    } actualizaWicon(document);// Actualizando Iconos
+    function mwicon(w){let mcss=document.createElement("style");mcss.textContent=w;document.head.appendChild(mcss)}
+    mwicon(`
+        .wi-sm svg{width:2vw}
+        .wi-m svg{width:3vw}
+        .wi-lg svg{width:5vw}
+    `);// Actualizando css styles
